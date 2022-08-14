@@ -1,0 +1,12 @@
+name: CustomJoinMessage
+author: TheKuhlMc
+api: 4.0.0
+version: 1.0.0
+main: tkm\cjm\Main
+
+permissions:
+  setjoinmessage.use:
+    default: op
+  setquitmessage.use:
+    default: op
+

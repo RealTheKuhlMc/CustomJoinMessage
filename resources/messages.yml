@@ -1,0 +1,46 @@
+#THE PREFIX
+prefix: "§7[§bCustomJoinMessage§7]"
+#NO PERMISSION MESSAGE
+no-perms: "§cYou dont have Permission to use this command!"
+#USE COMMAND INGAME MESSAGE
+no-player: "§cUse the command ingame"
+#DEFAULT JOIN MESSAGE
+default-join-message: "§7[§a+§7] §e{player_name}"
+#DEFAULT LEAVE MESSAGE
+default-leave-message: "§7[§c-§7] §e{player_name}"
+#NO JOIN MESSAGE PROVIDED
+no-joinmessage-provided: "§cYou must specify a join message"
+#HAS NO JOIN MESSAGE
+no-joinmessage: "§cYou must have a join message to delete it."
+#SET JOIN MESSAGE
+set-joinmessage: "§aYou have successfully set your join message to §e{join_message}."
+#DELETE JOIN MESSAGE
+delete-joinmessage: "§aYou have successfully deleted your Join message."
+
+#NO QUIT MESSAGE PROVIDED
+no-quitmessage-provided: "§cYou must specify a quit message"
+#HAS NO QUIT MESSAGE
+no-quitmessage: "§cYou must have a quit message to delete it."
+#SET QUIT MESSAGE
+set-quitmessage: "§aYou have successfully set your quit message to §e{quit_message}."
+#DELETE JOIN MESSAGE
+delete-quitmessage: "§aYou have successfully deleted your Quit message."
+
+#UI
+setjoinmessage.title: "§7[§bSet JoinMessage§7]"
+setjoinmessage.content: "Here you can set your own join message{line}use {player_name} for your player name"
+setjoinmessage.input_name: "Here you can set your Join Message"
+setjoinmessage.toggle_name: "§cdo you want to delete your join message?"
+
+setquitmessage.title: "§7[§bSet QuitMessage§7]"
+setquitmessage.content: "Here you can set your own quit message{line}use {player_name} for your player name"
+setquitmessage.input_name: "Here you can set your Quit Message"
+setquitmessage.toggle_name: "§cdo you want to delete your quit message?"
+
+#commands
+setjoinmessage-description: "a command to set your join message"
+setjoinmessage-aliases: ["setjm"]
+
+setquitmessage-description: "a command to set your quit message"
+setquitmessage-aliases: ["setqm"]
+
