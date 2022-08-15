@@ -5,8 +5,8 @@ version: 1.0.0
 main: tkm\cjm\Main
 
 permissions:
-  setjoinmessage.use:
+  customjoinmessage.setjoinmessage.use:
     default: op
-  setquitmessage.use:
+  customjoinmessage.setquitmessage.use:
     default: op
 
