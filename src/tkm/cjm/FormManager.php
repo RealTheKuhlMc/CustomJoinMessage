@@ -3,7 +3,8 @@
 namespace tkm\cjm;
 
 
-use tkm\cjm\libs\jojoe777\FormAPI\CustomForm;
+
+use tkm\cjm\libs\jojoe77777\FormAPI\CustomForm;
 use pocketmine\player\Player;
 
 class FormManager{
@@ -23,7 +24,7 @@ class FormManager{
                     $player->sendMessage(Main::getPrefix() . Main::$message->get("no-quitmessage"));
                 }
             }else{
-                if(is_null($data[1])){
+                if(!$data[1]){
                     $player->sendMessage(Main::getPrefix() . Main::$message->get("no-quitmessage-provided"));
                     return true;
                 }
