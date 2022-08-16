@@ -2,7 +2,8 @@
 
 namespace tkm\cjm;
 
-use jojoe77777\FormAPI\CustomForm;
+
+use tkm\cjm\libs\jojoe777\FormAPI\CustomForm;
 use pocketmine\player\Player;
 
 class FormManager{

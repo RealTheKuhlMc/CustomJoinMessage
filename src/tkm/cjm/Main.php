@@ -22,10 +22,9 @@ class Main extends PluginBase{
         self::$joinmessages = new Config(self::getDataFolder() . "joinmessages.yml", 2);
         self::saveResource("messages.yml");
         self::$message = new Config(self::getDataFolder() . "messages.yml", 2);
-        self::getLogger()->info("CustomJoinMessage was enabled");
         Server::getInstance()->getPluginManager()->registerEvents(new EventListener(), $this);
 
-        Server::getInstance()->getCommandMap()->registerAll("commands",[
+        Server::getInstance()->getCommandMap()->registerAll("CustomJoinMessage",[
             new SetJoinMessageCommand("setjoinmessage", self::$message->get("setjoinmessage-description"), null, self::$message->get("setjoinmessage-aliases")),
             new SetQuitMessageCommand("setquitmessage", self::$message->get("setquitmessage-description"), null, self::$message->get("setquitmessage-aliases"))
             ]);
